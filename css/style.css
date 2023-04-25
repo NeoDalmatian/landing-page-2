@@ -84,7 +84,7 @@ header {
 /* SECTION-TWO */
 
 .section-two {
-  padding: 20px 0 60px;
+  padding: 20px 0 80px;
 }
 
 .section-two h2{
@@ -114,5 +114,32 @@ header {
 }
 
 .icon p {
+  margin: 0;
+}
+
+/* SECTION-THREE */
+
+.section-three {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #E5E7EB;
+padding: 90px 0;
+}
+
+.section-three h3 {
+  text-align: end;
+  font-size: 24px;
+  width: 700px;
+  margin: 0;
+}
+
+.section-three p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1F2937;
+  max-width: 790px;
   margin: 0;
 }
