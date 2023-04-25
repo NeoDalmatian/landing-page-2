@@ -187,3 +187,12 @@ padding: 90px 0;
   border: 2px solid #E5E7EB;
   background-color: #3882F6;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 14px 0;
+}
