@@ -8,7 +8,7 @@ body {
   padding: 0;
 }
 
-/* Header */
+/* HEADER */
 
 header {
   background-color: #1F2937;
@@ -16,7 +16,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: sticky;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 
 .logo {
@@ -77,4 +79,40 @@ header {
 
 .image img {
   width: 500px;
+}
+
+/* SECTION-TWO */
+
+.section-two {
+  padding: 20px 0 60px;
+}
+
+.section-two h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  padding-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 58px;
+}
+
+.icon {
+  max-width: 150px;
+  text-align: center;
+  color: rgb(93, 93, 93);
+}
+
+.icon img{
+  width: 150px;
+  height: 150px;
+  border-radius: 8%;
+}
+
+.icon p {
+  margin: 0;
 }
